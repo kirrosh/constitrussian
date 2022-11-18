@@ -11,6 +11,7 @@ module.exports = {
     extend: {},
   },
   plugins: [
+    require("@tailwindcss/typography"),
     plugin(function ({ addComponents }) {
       addComponents({
         ".no-scrollbar": {

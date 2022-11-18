@@ -25,9 +25,7 @@ export default function RootLayout({
                   <Sidebar />
                 </div>
               </div>
-              <div className="w-full max-w-full mt-[76px] bg-slate-200">
-                {children}
-              </div>
+              <div className="w-full max-w-full mt-[76px] ">{children}</div>
               <div className="w-[28%] h-full ml-0 bg-slate-800 xl:block hidden"></div>
             </div>
           </main>
