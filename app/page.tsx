@@ -1,3 +1,3 @@
-export default function Home() {
-  return <div className="h-screen w-screen">123</div>;
+export default function Home({ children }: any) {
+  return <div className="">{children}</div>;
 }
