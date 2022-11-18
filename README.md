@@ -9,7 +9,6 @@ npm create astro@latest -- --template docs
 
 ![docs](https://user-images.githubusercontent.com/4677417/186189283-0831b9ab-d6b9-485d-8955-3057e532ab31.png)
 
-
 ## Features
 
 - ✅ **Full Markdown support**
@@ -121,7 +120,7 @@ You'll also need to add the new language name to the `KNOWN_LANGUAGES` map in yo
 ```diff
 // src/config.ts
 export const KNOWN_LANGUAGES = {
-  English: 'en',
+  Russian: 'en',
 +  Spanish: 'es',
 };
 ```

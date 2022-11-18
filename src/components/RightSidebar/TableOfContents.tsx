@@ -74,7 +74,7 @@ const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[] }> = ({
   return (
     <>
       <h2 id={onThisPageID} className="heading">
-        На этой странице
+        Содержание
       </h2>
       <ul ref={toc}>
         {headings
